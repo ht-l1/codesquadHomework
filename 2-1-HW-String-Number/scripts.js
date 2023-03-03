@@ -2,8 +2,9 @@
 //Write a variable and call it dogQuestion and have the value of "But what if I like dogs more than cats?"
 //use the .length method to determine the length of the string value. 
 //1 Code Answer
-const dogQuestion = "But what if I like dogs more than cast?";
+const dogQuestion = "But what if I like dogs more than cats?";
 console.log(dogQuestion.length);
+
 //1 Result Answer
 
 //2
@@ -18,7 +19,7 @@ console.log(noms.length);
 //Replace "no" values in the "I have no interest in Boba" in string using the correct method.
 //3 Code Answer
 var code = "I have no interest in Boba";
-code = = code.replace("no","some");
+code = code.replace("no","some");
 console.log(code);
 //3 Result Answer:
 
@@ -40,10 +41,10 @@ var string1 = number1.toString();
 //6
 //Convert the boolean true and false into integers
 //6 Code Answer:
-var True = true;
-var False = false;
-var TrueInteger = booleanTrue;
-var FalseInteger = booleanFalse;
+var booleanTrue = true;
+var booleanFalse = false;
+var TrueInteger = Number(booleanTrue);
+var FalseInteger = Number(booleanFalse);
 console.log(TrueInteger);
 console.log(FalseInteger);
 //6 Result Answer:
@@ -75,7 +76,7 @@ if (index !== -1) {
 //9 Code Answer:
 let favFood = "chicken";
 let favDrink = "coke";
-let outputString = "I live " + favFoood + " " + favDrink;
+let outputString = "I live " + favFood + " " + favDrink;
 //9 Result Answer:
 
 //10
@@ -84,7 +85,7 @@ let outputString = "I live " + favFoood + " " + favDrink;
 
 //10 Code Answer:
 var dogQuestion = "But what if I like dogs more than cats?"
-console.log(dogQuestion.legnth);
+console.log(dogQuestion.length);
 //10 Result Answer:
 
 
@@ -93,8 +94,8 @@ console.log(dogQuestion.legnth);
 //(Hint: Which Math method can you use to do this?)
 
 //11 Code Answer:
-let number = [1,2,3];
-let smallest = Math.min(numer);
+let numbers = [85, -3, 5, 93.2, -42.4];
+let smallest = Math.min(...numbers);
 console.log(smallest);
 //11 Result Answer:
 
@@ -103,7 +104,7 @@ console.log(smallest);
 //Print to the console a random number between 1 to 10.
 
 //12 Code Answer:
-console.log(Math.floor(Math.random() + 1));
+console.log(Math.floor(Math.random() * 10) + 1);
 //12 Result Answer:
 
 
@@ -111,7 +112,8 @@ console.log(Math.floor(Math.random() + 1));
 //Print to the console a random number between 14 to 21.
 
 //13 Code Answer:
-console.log(Math.random() * (21-14+1) +14);
+console.log(Math.floor(Math.random() * (21 - 14 + 1) + 14));
+
 //13 Result Answer:
 
 
